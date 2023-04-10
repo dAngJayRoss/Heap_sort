@@ -205,7 +205,7 @@ int main(void)
 {
 	clock_t start, end;
 	int i;
-  double cpu_time_used;
+  	double cpu_time_used;
 	char* fileNames[] = { "input1.txt", "input2.txt", "input3.txt", "input4.txt" };
 	
 	for (i=0;i<4;++i)
@@ -247,5 +247,6 @@ int main(void)
 		free(pDataCopy);
 		free(pDataSrc);
 	}
-	
+
+	return 0;
 }
